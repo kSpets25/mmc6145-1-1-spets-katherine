@@ -12,14 +12,16 @@ export default function Home() {
   return (
 
     <main>
-        <h1 className={styles.placeholder}>Welcome to my portfolio website</h1>
-        <h1 className={styles.placeholder}>Katherine Spets</h1>
+        
+        <h1 className={styles.myName}>Katherine Spets</h1>
+        <h3 className={styles.welcome}>Welcome to my portfolio website</h3>
         
         {projects.map((project) => (
         <Project
           key={project.id} 
           title={project.title}
           url={project.url}
+          description={project.description}
         />
         ))}
     </main>

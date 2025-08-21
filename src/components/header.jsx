@@ -1,6 +1,7 @@
 //src/components/header.jsx
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import myLogo from '../assets/logo.png'
 
 
 export default function Header() {
@@ -8,7 +9,7 @@ export default function Header() {
         <header className="header">    
                     <nav className="nav">
                         <div className="nav_logo">
-                        <Link to="/"><img src="/images/logo.png" alt="Logo" /></Link> 
+                        <Link to="/"><img src={myLogo} alt="Logo" /></Link> 
                         </div>
                         <ul className="nav_link">
                             <li><Link to="/about">About</Link></li>
