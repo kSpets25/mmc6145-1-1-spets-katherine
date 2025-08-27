@@ -14,7 +14,6 @@ export default function Header() {
                         <ul className="nav_link">
                             <li><Link to="/about">About</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
-                            <li><Link to="/project">Projects</Link></li>
                         </ul>
                     </nav>
                     

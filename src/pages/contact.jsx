@@ -2,9 +2,8 @@ import styles from '../styles/contact.module.css'
 
 export default function Contact() {
   return (
-    <main>
-      <h1 className={styles.placeholder}>Contact page!</h1>
-      <h1>Contact Me</h1>
+    <main className={styles.contactMain}>
+      <h1 className={styles.contactPage}>Contact Me!</h1>
       <p>Connect with me on{' '}
           <br></br>
           <a
@@ -24,6 +23,7 @@ export default function Contact() {
           </a>
           .
       </p>
+      
     </main>
   )
 }

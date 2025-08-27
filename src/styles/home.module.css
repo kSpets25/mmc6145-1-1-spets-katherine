@@ -13,6 +13,13 @@
   color: rgb(23, 23, 62)
 }
 
+.proPic {
+  width: 200px; /* Set a specific width */
+  height: 200px; /* Set the same height as the width */
+  border-radius: 50%; /* Make it a circle */
+  object-fit: cover; /* Optional: Ensures the image covers the entire circular area without distortion */
+}
+
 
 
 
