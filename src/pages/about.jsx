@@ -1,25 +1,24 @@
-import styles from '../styles/about.module.css'
-import profilePic from '../assets/profilePicture.jpg'
+import styles from '../styles/about.module.css';
 import { Link } from 'react-router-dom'
 
 function Button() {
   return (
     <Link to="/contact">
-      <button>Contact Me</button>
+      <button className='button' style={{backgroundColor:'blue', color: 'white', padding:'10px 20px', borderRadieus: '5px'}}>Contact Me</button>
     </Link>
   )
 }
 
 export default function About() {
-  return (
-    
-      
+  return ( 
     <main className={styles.aboutMain}>
-      <h1 className={styles.aboutPage}> About Me!</h1>
-      
+      <>
+      <h1 className={styles.aboutText}> About Me!</h1>
+      </>
+      <section className='sectionAbout'>
         <p>The Reason I Love Web Design</p>
 
-            <p>Growing up on a farm in a small-town community, I value nature, family, community and above all learning about everything! But in high school the counselor told me I would never be accepted into college.  For anyone that has faced those words, “you can’t”, the fire lit inside me. Since then, not only did I get into college, but I have graduated with not one but four educational degrees.</p> 
+            <p>Growing up on a farm in a small-town community, I valued nature, family, community and above all learning about everything! In high school my counselor told me I would never be accepted into college.  For anyone that has faced those words, “you can’t”, the fire lit inside me. Since then, not only did I get into college, but I have graduated with not one but four educational degrees.</p> 
             
             <p>After earning my associates degree, I continued learning and became a Respiratory Therapist. completed a Bachelor of Business Administration degree, and finally my Master of Mass Communication degree with a concentration in Web Design</p>
             
@@ -27,10 +26,11 @@ export default function About() {
            
             <p>Great web design isn’t just about aesthetics; it’s about understanding users and what they need, how they think, and how they interact with digital spaces. This is invaluable when translating goals into effective digital experiences. My diverse background helps me design for different audiences and helps me create inclusive and user-friendly website designs.</p>
            
-            <p>I have been a substitute teacher for 17 years and work to encourage students to continue learning. I pride myself on making education a priority for others, especially high school students. Let me put my web design skills to work designing websites for you.</p>
+            <p>Take a look at my projects and see first hand the successes and challenges I have experienced. </p>
            
-
             <Button />
+
+      </section>
 
      
     </main>

@@ -1,0 +1,28 @@
+
+.sectionProject{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    max-width: 800px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+
+
+.projecttMain {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+.projectText h1{
+    display: flex;
+    display: contents;
+    text-align: center;
+   
+   
+    
+  }
+  

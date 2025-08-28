@@ -4,9 +4,11 @@
 }
 
 body {
+
   background-image: url(assets/lotusFlower.jpg);
   background-size:cover;
   background-color: #dfe2e9;
+  backdrop-filter: blur(3px);
   display: flex;
   flex-direction: column;
   margin: 0px;
@@ -15,26 +17,62 @@ body {
   
 }
 
- h1 {
+.sectionContact {
+  
+  background-color: whitesmoke;
+  width: 50%;
+  max-width: 1800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 75px;
+  padding-bottom: 60px;
+}
+
+.sectionAbout {
+  
+  background-color: whitesmoke;
+  width: 60%;
+  max-width: 1800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding: 40px
+}
+
+.sectionHome {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding: 40px
+}
+
+.sectionProject {
+  background-color: aliceblue;
+  width: 40%;
+  max-width: 1800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding: 40px;
+}
+
+.projectTitle {
+  text-align: center;
+}
+   
+h1 {
   color: #55b64e99;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2.5em;
   text-align:left;
  }
 
- main{
-  position: relative;
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 1800px;
-  margin: 0 auto;
-  margin-top: 10px;
-  padding-top: 75px;
-  padding-left: 50px;
-  text-align: left;
-  padding-bottom: 40px;
-
-}
+ 
 
  h2 {
   color: peru;
@@ -48,20 +86,21 @@ body {
   color: darkblue;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 1.0em;
-  text-align: left;
+  text-align: center;
  }
 
  h4{
   color: brown;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.0em;
   text-align: center;
  }
 
  p {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
+  text-align: center;
+  font-size: 1.0em;
  }
 
  .header nav{
@@ -111,3 +150,9 @@ ul{
   list-style-type: none;
   
 }
+
+
+
+
+
+

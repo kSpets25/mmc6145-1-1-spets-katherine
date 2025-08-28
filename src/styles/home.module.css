@@ -1,12 +1,35 @@
 
+.sectionHome {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.homeMain {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.homeText {
+  display: flex;
+  display: contents; 
+}
+
+
 .myName {
   font-size: 2.0rem;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  color: wheat
+  color: white
+
 }
 
 .welcome {
+  display: flex;
   font-size: 2.0rem;
   margin: 0;
   font-style: italic;
@@ -14,11 +37,23 @@
 }
 
 .proPic {
-  width: 200px; /* Set a specific width */
-  height: 200px; /* Set the same height as the width */
+  width: 150px; /* Set a specific width */
+  height: 150px; /* Set the same height as the width */
   border-radius: 50%; /* Make it a circle */
   object-fit: cover; /* Optional: Ensures the image covers the entire circular area without distortion */
 }
+
+.hero {
+  padding-bottom: 150px;
+}
+
+
+
+
+
+
+
+
 
 
 
