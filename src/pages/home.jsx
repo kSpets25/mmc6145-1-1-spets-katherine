@@ -35,9 +35,9 @@ export default function Home() {
             <div className='button'>
                <Button />
             </div>
+          
+            <h2 className='ProjectTitle'>My Projects</h2>
         </section>
-              <h1 className='ProjectTitle'>My Projects</h1>
-        
               {projects.map((project) => (
               <Project
                 key={project.id} 

@@ -11,7 +11,7 @@ export default function Contact() {
         <section className='sectionContact'>
         <h3>I'm looking for work!</h3>
         <h3>If you'd like to get in touch with me:</h3>
-        <h4>email: k.spets@ufl.edu</h4>
+        <h4>email:</h4>
         <h4>You can also contact me here as well: {' '}
             <br></br>
             <a

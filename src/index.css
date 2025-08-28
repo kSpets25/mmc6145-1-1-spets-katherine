@@ -17,6 +17,11 @@ body {
   
 }
 
+main{
+  display: flexbox;
+  margin: 0px;
+}
+
 .sectionContact {
   
   background-color: whitesmoke;
@@ -60,10 +65,6 @@ body {
   padding-bottom: 60px;
   padding: 40px;
 }
-
-.projectTitle {
-  text-align: center;
-}
    
 h1 {
   color: #55b64e99;
@@ -78,7 +79,7 @@ h1 {
   color: peru;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5em;
-  text-align:left;
+  text-align:center;
   
  }
  
