@@ -8,10 +8,10 @@ export default function Contact() {
         <>
         <h1 className={styles.contactText}>Let's Get In Touch</h1>
         </>
-        <section className='sectionContact'>
-        <h3>I'm looking for work!</h3>
-        <h3>If you'd like to get in touch with me:</h3>
-        <h4>email:</h4>
+        <section className={styles.sectionContact}>
+        <h2>I'm looking for work!</h2>
+        <h4 className={styles.contactMe}>If you'd like to get in touch with me: <br></br>
+        kspets@ufl.edu</h4>
         <h4>You can also contact me here as well: {' '}
             <br></br>
             <a

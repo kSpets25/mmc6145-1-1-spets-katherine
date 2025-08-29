@@ -13,7 +13,7 @@ export default function About() {
   return ( 
     <main className={styles.aboutMain}>
       <>
-      <h1 className={styles.aboutText}> About Me!</h1>
+      <h1 className={styles.aboutMe}> About Me!</h1>
       </>
       <section className={styles.sectionAbout}>
         <p>The Reason I Love Web Design</p>

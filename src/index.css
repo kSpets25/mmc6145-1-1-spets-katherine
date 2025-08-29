@@ -22,17 +22,6 @@ main{
   margin: 0px;
 }
 
-
-.sectionContact {
-  background-color: whitesmoke;
-  width: 50%;
-  max-width: 1400px;
-  margin: 0 auto;
-  margin-top: 10px;
-  padding-top: 75px;
-  padding-bottom: 60px;
-}
-
 .sectionProject {
   background-color: aliceblue;
   width: 40%;
