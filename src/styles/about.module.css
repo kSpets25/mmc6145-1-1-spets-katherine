@@ -1,24 +1,26 @@
 
+
+.aboutMain {
+  text-align: center;
+  padding-top: 0px;
+}
+
 .sectionAbout {
-  display: flex;
+  display: flexbox;
   flex-direction: column;
   background-color: aliceblue;
-  max-width: 900px;
+  margin: 0 auto;
+  max-width: 700px;
   text-align: center;
   justify-content: center;
   padding-bottom: 50px;
   padding-top: 50px;
 }
 
-.aboutMain {
-  text-align: center;
-  padding-top: 30px;
-}
-
 .aboutText {
-  text-align: center;
+  
   display: flex;
-  display: contents; 
+  display: contents;
 }
 
 
