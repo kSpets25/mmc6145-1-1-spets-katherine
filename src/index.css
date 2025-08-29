@@ -22,8 +22,8 @@ main{
   margin: 0px;
 }
 
+
 .sectionContact {
-  
   background-color: whitesmoke;
   width: 50%;
   max-width: 1800px;
@@ -45,16 +45,6 @@ main{
   padding: 40px
 }
 
-.sectionHome {
-  width: 100%;
-  max-width: 1800px;
-  margin: 0 auto;
-  margin-top: 10px;
-  padding-top: 50px;
-  padding-bottom: 40px;
-  padding: 40px
-}
-
 .sectionProject {
   background-color: aliceblue;
   width: 40%;
@@ -73,15 +63,12 @@ h1 {
   text-align:left;
  }
 
- 
-
- h2 {
+h2 {
   color: peru;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5em;
   text-align:center;
-  
- }
+}
  
  h3{
   color: darkblue;
@@ -90,27 +77,27 @@ h1 {
   text-align: center;
  }
 
- h4{
+h4{
   color: brown;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.0em;
   text-align: center;
  }
 
- p {
+p {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 1.0em;
  }
-
- .header nav{
+ 
+.header nav{
   
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
   
- }
+}
 
 .header {
   background-color: aliceblue;

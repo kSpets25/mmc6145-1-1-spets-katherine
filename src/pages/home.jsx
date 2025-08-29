@@ -23,8 +23,8 @@ const projects = [
 export default function Home() {
   return (
 
-    <main className={styles.home}>
-        <section className='sectionHome'>  
+    <main className={styles.homeMain}>
+        <section className={styles.sectionHome}>  
             <div>
               <img className={styles.proPic}
                 src={proPic} from alt="katherine spets" 
@@ -35,9 +35,8 @@ export default function Home() {
             <div className='button'>
                <Button />
             </div>
-          
-            <h2 className='ProjectTitle'>My Projects</h2>
         </section>
+        <><h2 className={styles.projectTitle}>My Projects</h2></>
               {projects.map((project) => (
               <Project
                 key={project.id} 
