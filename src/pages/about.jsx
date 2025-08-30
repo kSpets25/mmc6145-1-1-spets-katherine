@@ -16,7 +16,7 @@ export default function About() {
       <h1 className={styles.aboutMe}> About Me!</h1>
       </>
       <section className={styles.sectionAbout}>
-        <p>The Reason I Love Web Design</p>
+        <p className={styles.aboutText}>The Reason I Love Web Design</p>
 
             <p>Growing up on a farm in a small-town community, I valued nature, family, community and above all learning about everything! In high school my counselor told me I would never be accepted into college.  For anyone that has faced those words, “you can’t”, the fire lit inside me. Since then, not only did I get into college, but I have graduated with not one but four educational degrees.</p> 
             

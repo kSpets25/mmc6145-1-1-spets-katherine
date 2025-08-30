@@ -10,7 +10,7 @@
   
   /* Style for the butterfly image itself */
   .butterfly {
-    width: 50px; 
+    width: 70px; 
     height: auto;
   }
   
@@ -23,10 +23,10 @@
       transform: translate(90vw, 30vh);
     }
     50% {
-      transform: translate(50vw, 80vh);
+      transform: translate(10vw, 80vh);
     }
     75% {
-      transform: translate(20vw, 50vh);
+      transform: translate(30vw, 50vh);
     }
     100% {
       transform: translate(10vw, 10vh);

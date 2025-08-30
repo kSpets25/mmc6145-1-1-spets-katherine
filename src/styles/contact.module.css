@@ -17,15 +17,11 @@
   padding-top: 50px;
 }
 
-.contactMain {
-  text-align: center;
-  padding-top: 20px;
-}
 .contactText {
   display: flex;
   display: contents;
   font-size: 2.0em; 
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .contactMe{

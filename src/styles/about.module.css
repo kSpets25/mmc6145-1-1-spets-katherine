@@ -10,12 +10,13 @@
   flex-direction: column;
   background-color: aliceblue;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 900px;
   text-align: center;
-  justify-content: center;
+  justify-content: left;
   padding-bottom: 50px;
   padding-top: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  font-size: 1.0em;
   
 }
 
@@ -23,8 +24,14 @@
   display: flex;
   display: contents;
   font-size: 2.0em;
-  padding-bottom:10px ;
+ 
 }
+
+.aboutText {
+  display: flex;
+  
+}
+
 
 
 

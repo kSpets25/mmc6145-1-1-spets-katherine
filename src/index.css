@@ -4,10 +4,11 @@
 }
 
 body {
+
   background-image: url(assets/lotusFlower.jpg);
   background-size:cover;
   background-color: #dfe2e9;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
   display: flex;
   flex-direction: column;
   margin: 0px;
@@ -21,22 +22,8 @@ main{
   margin: 0px;
 }
 
-.backgroundStar {
-  position: absolute;
-  font-size: 4rem;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  animation: moveStar 10s infinite linear;
-  pointer-events: none; /* Allows clicks through it */
-}
-
-
-
-
-
 h1 {
-  color: #55b64e99;
+  color: green;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2.5em;
   text-align:left;
@@ -57,19 +44,19 @@ h2 {
  }
 
 h4 {
-  color: brown;
+  color: green;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.0em;
   text-align: center;
  }
 
 p {
-  color: black;
+  color: var(--black);
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  text-align:left;
   font-size: 1.0em;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 30px;
+  padding-left: 40px;
  }
  
 .header nav{
@@ -92,12 +79,13 @@ p {
   justify-content: right;
   flex-direction: row;
   gap: 20px;
-  padding-right: 0px;
+  padding-right: 50px;
+  padding-left: 88px;
   padding-top: 20px;
 }
 
 .nav_logo{
-  padding-left: 50px;
+  padding-left: 10px;
 }
 
 .nav ul{
@@ -111,17 +99,9 @@ p {
 
 .nav a {
   text-decoration: none;
-  color: blue
-  
+  color: darkblue
 }
 
 ul{
-  list-style-type: none;
-  
+  list-style-type: none; 
 }
-
-
-
-
-
-
