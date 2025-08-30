@@ -1,0 +1,34 @@
+/* Container for the butterfly, to manage its positioning */
+.butterfly-container {
+    position: fixed; /* Fixed position keeps it in the viewport */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it floats above other content */
+    pointer-events: none; /* Allows clicks to pass through the element */
+    animation: fly 20s infinite linear; /* Apply the animation */
+  }
+  
+  /* Style for the butterfly image itself */
+  .butterfly {
+    width: 50px; 
+    height: auto;
+  }
+  
+  /* Keyframes for the 'fly' animation */
+  @keyframes fly {
+    0% {
+      transform: translate(10vw, 10vh);
+    }
+    25% {
+      transform: translate(90vw, 30vh);
+    }
+    50% {
+      transform: translate(50vw, 80vh);
+    }
+    75% {
+      transform: translate(20vw, 50vh);
+    }
+    100% {
+      transform: translate(10vw, 10vh);
+    }
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from '../styles/home.module.css';
 import Project from "../components/project";
-import proPic from '../assets/profilePicture.jpg'
-import star from '../assets/starBlue.png'
+import proPic from '../assets/profilePicture.jpg';
+import star from '../assets/starBlue.png';
 import { Link } from 'react-router-dom'
 
 const projects = [
@@ -24,6 +24,7 @@ export default function Home() {
   return (
 
     <main className={styles.homeMain}>
+      
         <section className={styles.sectionHome}>  
             <div>
               <img className={styles.proPic}
@@ -37,6 +38,7 @@ export default function Home() {
             </div>
         </section>
         <><h2 className={styles.projectTitle}>My Projects</h2></>
+       
               {projects.map((project) => (
               <Project
                 key={project.id} 
@@ -45,9 +47,9 @@ export default function Home() {
                 description={project.description}
                 image={project.image}
               />
-         
+                
         ))}
-      
+     
     </main>
   );
 };

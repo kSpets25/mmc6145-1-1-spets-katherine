@@ -8,7 +8,7 @@ export default function Contact() {
         <>
         <h1 className={styles.contactText}>Let's Get In Touch</h1>
         </>
-        <section className={styles.sectionContact}>
+      <section className={styles.sectionContact}>
         <h2>I'm looking for work!</h2>
         <h4 className={styles.contactMe}>If you'd like to get in touch with me: <br></br>
         kspets@ufl.edu</h4>
@@ -29,7 +29,6 @@ export default function Contact() {
             >
               Github
             </a>
-            
         </h4>
       </section>
     </main>

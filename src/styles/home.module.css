@@ -1,4 +1,4 @@
-
+/* src/home.module.css */
 
 .homeMain {
   max-width: 100%;
@@ -30,8 +30,6 @@
   margin: 0;
   padding-bottom: 10px;
   color: white
-  
-
 }
 
 .welcome {
@@ -43,23 +41,37 @@
 }
 
 .proPic {
-  width: 150px; /* Set a specific width */
-  height: 150px; /* Set the same height as the width */
+  width: 175px; /* Set a specific width */
+  height: 175px; /* Set the same height as the width */
   border-radius: 50%; /* Make it a circle */
   object-fit: cover; /* Optional: Ensures the image covers the entire circular area without distortion */
 }
 
-.hero {
-  padding-bottom: 150px;
-}
-
 .projectTitle {
-  font-size: 50px;
+  font-size: 2.0em;
   text-align: center;
   margin: 0;
   padding-top: 30px;
   padding-bottom: 10px;
 }
+
+.star {
+position: absolute;
+      top: 50%;
+      left: -50px; /* start off-screen */
+      font-size: 3rem;
+      color: yellow;
+      animation: moveAcross 5s linear infinite;
+}
+
+
+
+
+
+
+
+
+
 
 
 

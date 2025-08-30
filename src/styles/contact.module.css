@@ -1,3 +1,9 @@
+/* src/contact.module.css */
+
+.contactMain {
+  text-align: center;
+  padding-top: 30px;
+}
 
 .sectionContact {
   display: flex;
@@ -7,20 +13,19 @@
   max-width: 700px;
   text-align: center;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   padding-top: 50px;
-  margin-bottom: 40px;
 }
 
 .contactMain {
   text-align: center;
   padding-top: 20px;
 }
-
 .contactText {
   display: flex;
   display: contents;
   font-size: 2.0em; 
+  padding-bottom: 10px;
 }
 
 .contactMe{

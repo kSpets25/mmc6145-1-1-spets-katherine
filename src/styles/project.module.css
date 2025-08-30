@@ -1,26 +1,23 @@
+/* src/project.module.css */
 
-.sectionProject{
-    display: flex;
-    flex-direction: column;
-    background-color: aliceblue;
+.sectionProject {
     max-width: 800px;
     text-align: center;
     justify-content: center;
-    padding-bottom: 50px;
+    background-color: aliceblue;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
     padding-top: 50px;
+    padding-bottom: 60px;
+    padding: 40px;
   }
   
 .projecttMain {
     text-align: center;
     padding-top: 20px;
   }
+
+/*update -My Projects- title in home.module.css*/
   
-.projectTitle {
-    display: flex;
-    display: contents;
-    text-align: center;
-   
-   
-    
-  }
   

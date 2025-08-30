@@ -8,7 +8,7 @@ export default function Project({title, description, image, url}) {
 
     return(
         <main className={styles.projectMain}>
-            <section className='sectionProject'>
+            <section className={styles.sectionProject}>
                 <div>
                     <h4>
                         <a href={url} 
