@@ -12,12 +12,11 @@
   flex-direction: column;
   max-width: 100%;
   justify-content: left;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  padding-bottom: 100px;
+  padding-left: 90px;
   padding-top: 150px;
   
 }
-
 
 .homeText {
   display: flex;
@@ -25,7 +24,7 @@
 }
 
 .myName {
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding-bottom: 2px;
@@ -49,6 +48,15 @@
   object-fit: cover; /* Optional: Ensures the image covers the entire circular area without distortion */;
 }
 
+.arrow {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: auto;
+  margin:auto;
+  padding-bottom: 20px;
+}
+
 .projectTitle {
   font-size: 2.0em;
   text-align: center;
@@ -57,9 +65,10 @@
   padding-bottom: 40px;
 }
 
-@media (max-width: 767){
-  .main.sectionHome.myName {
-    font-size: 10px;
+@media (max-width: 767) {
+  .myName {
+    font-size: 1.0em;
+    
   }
 }
  

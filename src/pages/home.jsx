@@ -3,15 +3,16 @@ import styles from '../styles/home.module.css';
 import Project from "../components/project";
 import proPic from '../assets/profilePicture.jpg';
 import star from '../assets/starBlue.png';
+import arrow from '../assets/arrowIcon.png'
 import { Link } from 'react-router-dom'
 
 const projects = [
   { id: 1, title: 'Caddyshack', 
-    description: 'First class Website as project lead',
+    description: 'First class website as project lead',
     image: star, url:'https://kspets25.github.io/all-about-caddyshack/'},
 
   { id: 2, title: 'Bike Time Calculator',
-    description: 'First website using Javascript', 
+    description: 'First website coding Javascript', 
     url:'https://bike-time-training-calc-a7ab8c6645a4.autoidleapp.com/'},
 
   { id: 3, title: 'Furry Friends',
@@ -44,8 +45,13 @@ export default function Home() {
                <Button />
             </div>
         </section>
-        <><h2 className={styles.projectTitle}>My Projects</h2></>
-       
+        <div>
+            <img className={styles.arrow}
+                src={arrow} from alt="down Arrow" 
+                />
+            <h2 className={styles.projectTitle}>My Projects</h2>
+        </div>
+           
               {projects.map((project) => (
               <Project
                 key={project.id} 

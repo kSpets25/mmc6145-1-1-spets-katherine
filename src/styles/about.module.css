@@ -2,7 +2,7 @@
 
 .aboutMain {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .sectionAbout {
@@ -23,7 +23,8 @@
 .aboutMe{
   display: flex;
   display: contents;
-  font-size: 2.0em;
+  font-size: 2.3em;
+  
  
 }
 

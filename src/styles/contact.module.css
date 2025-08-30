@@ -2,7 +2,8 @@
 
 .contactMain {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 25px;
+ 
 }
 
 .sectionContact {
@@ -20,8 +21,8 @@
 .contactText {
   display: flex;
   display: contents;
-  font-size: 2.0em; 
-  padding-bottom: 50px;
+  font-size: 2.3em; 
+  padding-bottom: 0px;
 }
 
 .contactMe{

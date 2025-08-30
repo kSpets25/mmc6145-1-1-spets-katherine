@@ -1,7 +1,7 @@
 /* src/project.module.css */
 
 .sectionProject {
-    max-width: 800px;
+    max-width: 480px;
     text-align: center;
     justify-content: center;
     background-color: aliceblue;
@@ -17,6 +17,8 @@
     text-align: center;
     padding-top: 20px;
   }
+
+
 
 /*update -My Projects- title in home.module.css*/
   
