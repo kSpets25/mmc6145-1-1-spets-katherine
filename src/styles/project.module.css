@@ -1,11 +1,11 @@
 /* src/project.module.css */
 
 .sectionProject {
-    max-width: 480px;
+    max-width: 475px;
     text-align: center;
     justify-content: center;
     background-color: aliceblue;
-    width: 50%;
+    width:100%;
     margin: 0 auto;
     margin-top: 10px;
     padding-top: 50px;
@@ -18,7 +18,11 @@
     padding-top: 20px;
   }
 
-
+  @media (max-width: 768px) {
+    .sectionProject {
+      max-width: 55%;
+    }
+  }
 
 /*update -My Projects- title in home.module.css*/
   

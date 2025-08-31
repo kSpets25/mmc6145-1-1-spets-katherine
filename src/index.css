@@ -119,3 +119,13 @@ a:hover {
 ul{
   list-style-type: none; 
 }
+
+@media (max-width: 768px){
+  .nav ul {
+    margin-left: -20px;
+  }
+
+  .nav {
+    padding-left: 50px;
+  }
+}
