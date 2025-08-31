@@ -3,12 +3,12 @@
     position: fixed; /* Fixed position keeps it in the viewport */
     top: 0;
     left: 0;
-    z-index: 1000; /* Ensure it floats above other content */
+    z-index: 1000; /* Floats above other content */
     pointer-events: none; /* Allows clicks to pass through the element */
     animation: fly 20s infinite linear; /* Apply the animation */
   }
   
-  /* Style for the butterfly image itself */
+  /* Style for the butterfly image */
   .butterfly {
     width: 70px; 
     height: auto;

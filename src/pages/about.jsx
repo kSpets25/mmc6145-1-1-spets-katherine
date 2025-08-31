@@ -11,6 +11,7 @@ function Button() {
 
 export default function About() {
   return ( 
+    
     <main className={styles.aboutMain}>
       <>
       <h1 className={styles.aboutMe}> About Me!</h1>
@@ -20,7 +21,7 @@ export default function About() {
 
             <p>Growing up on a farm in a small-town community, I valued nature, family, community and above all learning about everything! In high school my counselor told me I would never be accepted into college.  For anyone that has faced those words, “you can’t”, the fire lit inside me. Since then, not only did I get into college, but I have graduated with not one but four educational degrees.</p> 
             
-            <p>After earning my associates degree, I continued learning and became a Respiratory Therapist. completed a Bachelor of Business Administration degree, and finally my Master of Mass Communication degree with a concentration in Web Design</p>
+            <p>After earning my associates degree, I continued learning and became a Respiratory Therapist, completed a Bachelor of Business Administration degree, and finally my Master of Mass Communication degree with a concentration in Web Design</p>
             
             <p>Web design offers me a platform to combine all my learning experience, and the opportunity to continue learning because it is always evolving.  New design trends, tools, and technologies (like responsive design, accessibility standards, and UX/UI best practices) emerge frequently. This environment keeps me engaged and growing continuously. I am passionate about web design because it feeds my curiosity and rewards adaptability and exploration.</p>
            
@@ -32,7 +33,6 @@ export default function About() {
 
       </section>
 
-     
     </main>
   )
 }

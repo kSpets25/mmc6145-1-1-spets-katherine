@@ -23,7 +23,8 @@ const projects = [
  export function Button() {
   return (
     <Link to="/about">
-      <button className='button' style={{backgroundColor:'blue', color: 'white', padding:'10px 20px', borderRadieus: '5px'}}>About Me</button>
+      <button className='button' 
+      style={{backgroundColor:'blue', color: 'white', padding:'10px 20px', borderRadieus: '5px'}}>About Me</button>
     </Link>
   )
 }
