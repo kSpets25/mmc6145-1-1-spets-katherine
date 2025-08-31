@@ -3,7 +3,6 @@
 .contactMain {
   text-align: center;
   padding-top: 25px;
- 
 }
 
 .sectionContact {
@@ -27,6 +26,13 @@
 
 .contactMe {
   padding: 0
+}
+
+@media (max-width: 768px) {
+  .contactText {
+    font-size: 1.5em;
+    color: whitesmoke
+  }
 }
 
 

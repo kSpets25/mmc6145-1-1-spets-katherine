@@ -16,22 +16,27 @@
   padding-bottom: 50px;
   padding-top: 40px;
   margin-bottom: 50px;
-  font-size: 1.0em;
-  
+  font-size: 1.0em; 
 }
 
 .aboutMe{
   display: flex;
   display: contents;
   font-size: 2.0em;
-  
- 
 }
 
 .aboutText {
-  display: flex;
-  
+  display: flex; 
 }
+
+@media (max-width: 768px) {
+  .aboutMe {
+    font-size: 1.5em;
+    color: whitesmoke
+  }
+}
+  
+
 
 
 
