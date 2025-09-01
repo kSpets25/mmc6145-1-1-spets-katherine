@@ -68,6 +68,17 @@ p {
   max-height: 100px;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  max-height: 100px;
+}
+
+.footer p {
+  color: aliceblue;
+  
+}
+
 .nav {
   display: flex;
   padding-top: 10px;
