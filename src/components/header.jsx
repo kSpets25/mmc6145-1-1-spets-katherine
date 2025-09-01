@@ -9,7 +9,7 @@ export default function Header() {
         <header className="header">    
                     <nav className="nav">
                         <div className="nav_logo">
-                        <Link to="/"><img src={myLogo} alt="Logo" /></Link> 
+                            <Link to="/"><img src={myLogo} alt="Logo" /></Link> 
                         </div>
                         <ul className="nav_link">
                             <li><Link to="/about">About</Link></li>

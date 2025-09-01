@@ -3,7 +3,6 @@ import React from 'react'
 import styles from '../styles/project.module.css'
 
 
-
 export default function Project({title, description, image, url}) {
 
     return(
@@ -16,7 +15,7 @@ export default function Project({title, description, image, url}) {
                             rel="noopener noreferrer">
                             <h3>{title}</h3>
                         </a>
-                        {description}
+                        {description} <br></br>
                         <img src={image}></img>
                         
                     </h4>

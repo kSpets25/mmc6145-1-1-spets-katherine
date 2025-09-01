@@ -1,7 +1,7 @@
 /* src/project.module.css */
 
 .sectionProject {
-    max-width: 475px;
+    max-width: 600px;
     text-align: center;
     justify-content: center;
     background-color: aliceblue;
@@ -12,15 +12,23 @@
     padding-bottom: 60px;
     padding: 40px;
   }
+
+  .sectionProject h4 {
+    font-size: 1.4em;
+  }
   
-.projecttMain {
+  .projecttMain {
     text-align: center;
     padding-top: 20px;
   }
 
   @media (max-width: 768px) {
     .sectionProject {
-      max-width: 55%;
+      max-width: 50%;
+    }
+
+    .sectionProject h4 {
+      font-size: 0.8em;
     }
   }
 
