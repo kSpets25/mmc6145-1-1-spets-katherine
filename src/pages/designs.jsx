@@ -1,5 +1,5 @@
 import styles from '../styles/designs.module.css'
-import musicDesign from '../assets/design4.jpg';
+import musicDesign from '../assets/design5.jpg';
 import bookCover from '../assets/design3.jpg';
 import mediaCampaign from '../assets/design1.jpg';
 import emailBlast from '../assets/design2.jpg';
