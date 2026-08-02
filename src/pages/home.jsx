@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 const projects = [
   { id: 1, title: 'Caddyshack', 
-    description: 'First class website as project lead',
+    description: 'First website as project lead',
     image: star, url:'https://kspets25.github.io/all-about-caddyshack/'},
 
   { id: 2, title: 'Bike Time Calculator',
