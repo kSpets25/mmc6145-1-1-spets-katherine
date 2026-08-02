@@ -12,7 +12,7 @@ const projects = [
     image: star, url:'https://kspets25.github.io/all-about-caddyshack/'},
 
   { id: 2, title: 'Bike Time Calculator',
-    description: 'First website coding Javascript', 
+    description: 'First website coding JavaScript', 
     url:'https://bike-time-training-calc-a7ab8c6645a4.autoidleapp.com/'},
 
   { id: 3, title: 'Furry Friends',
