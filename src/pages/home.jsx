@@ -36,9 +36,6 @@ export default function Home() {
       
         <section className={styles.sectionHome}>  
             <div>
-              <img className={styles.proPic}
-                src={proPic} from alt="katherine spets" 
-                />
               <h1 className={styles.myName}>Katherine Spets</h1>
               <h1 className={styles.welcome}>Welcome to my portfolio website</h1>
             </div>
