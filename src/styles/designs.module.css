@@ -1,0 +1,54 @@
+/* src/designs.module.css */
+
+.designsMain {
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+.sectionDesigns {
+    display: flexbox;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    justify-content: left;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    font-size: 1.0em; 
+  }
+  
+  .musicDesign{
+    display: block;
+    width: 100%;
+  }
+
+  .bookCover{
+    display: block;
+    width: 100%;
+  }
+
+  .mediaCampaign{
+    display: block;
+    width: 100%;
+  }
+
+  .emailBlast{
+    display: block;
+    width: 100%;
+  }
+
+  .designsTitle {
+    display: flex;
+    display: contents;
+    font-size: 2.0em;
+  }
+  
+  @media (max-width: 768px) {
+    .designsTitle {
+      font-size: 1.5em;
+      color: whitesmoke
+    }
+  }
+    

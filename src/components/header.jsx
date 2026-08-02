@@ -12,6 +12,7 @@ export default function Header() {
                             <Link to="/"><img src={myLogo} alt="Logo" /></Link> 
                         </div>
                         <ul className="nav_link">
+                            <li><Link to="/designs">Designs</Link></li>
                             <li><Link to="/about">About</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>

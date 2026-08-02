@@ -21,7 +21,7 @@ export default function About() {
 
             <p>Growing up on a farm in a small-town community, I valued nature, family, community and above all learning about everything! In high school my counselor told me I would never be accepted into college.  For anyone that has faced those words, “you can’t”, the fire lit inside me. Since then, not only did I get into college, but I have graduated with two major educational degrees.</p> 
             
-            <p>Web design offers me a platform to combine all my learning experience, and the opportunity to continue learning because it is always evolving. New design trends, tools, and technologies  emerge frequently. This environment keeps me engaged and growing continuously. I am passionate about web design because it feeds my curiosity and rewards adaptability and exploration.</p>
+            <p>Web design offers me a platform to combine all my learning experience, and the opportunity to continue learning because it's always evolving. New design trends, tools, and technologies emerge frequently. This environment keeps me engaged and growing continuously. I am passionate about web design because it feeds my curiosity and rewards adaptability and exploration.</p>
            
             <p>Take a look at my projects and see first hand the successes and challenges I have experienced. </p>
            

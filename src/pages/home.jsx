@@ -47,7 +47,7 @@ export default function Home() {
             <img className={styles.arrow}
                 src={arrow} from alt="down Arrow" 
                 />
-            <h2 className={styles.projectTitle}>My Projects</h2>
+            <h2 className={styles.projectTitle}>Web Design Projects</h2>
         </div>
            
               {projects.map((project) => (

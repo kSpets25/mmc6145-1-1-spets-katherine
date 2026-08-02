@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import Header from './components/header.jsx';
 import Footer from './components/footer.jsx';
 import Home from './pages/home';
+import Designs from './pages/designs';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Butterfly from './Butterfly.jsx';
@@ -15,6 +16,7 @@ export default function App() {
     {/* Page Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/designs" element={<Designs/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
