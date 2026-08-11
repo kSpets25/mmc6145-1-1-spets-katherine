@@ -17,13 +17,33 @@ export default function About() {
       <h1 className={styles.aboutMe}> About Me!</h1>
       </>
       <section className={styles.sectionAbout}>
-        <p className={styles.aboutText}>The Reason I Love Web Design</p>
+        <p className={styles.aboutText}>Designing Ideas into Meaningful Experiences.</p>
 
-            <p>Growing up on a farm in a small-town community, I valued nature, family, community and above all learning about everything! In high school my counselor told me I would never be accepted into college.  For anyone that has faced those words, “you can’t”, the fire lit inside me. Since then, not only did I get into college, but I have graduated with two major educational degrees.</p> 
+            <p>Hi, I'm Katherine Spets, and I recently graduated from the University of Florida. I am a designer with a passion for creating engaging and visually compelling designs. I enjoy turning ideas into visuals that not only look good but also communicate a clear message.</p>
+
+            <p className={styles.aboutText}>What I do</p>
+            <p>Web Design</p>
+            <p>I create user-focused web experiences with an emphasis on clean layouts, visual hierarchy, responsiveness design, and intuitive navigation.</p>
+
+            <p>Graphic Design</p>
+
+            <p>From digital graphics to print materials, I enjoy exploring typography, color composition, and imagery to create designs that communicate effectively.</p>
+
+            <p>Logo & Branding Design</p>
+
+            <p>I recreated memorable logos and cohesive visual designs that establish a distinct and recognizable presence.</p>
+
+            <p>Marketing Design</p>
+
+            <p>I design promotional materials, social media content, advertisements, and other marketing visuals that help brands and ideas stand out.</p>
+
+            <p className={styles.aboutText}>My Approach</p>
+
+            <p>I believe great design starts with understanding the message behind it.  I approach each project by combining creativity with research, problem-solving, and especially attention to detail. My goal is to create work that feels intentional, and authentic</p>
             
             <p>Web design offers me a platform to combine all my learning experience, and the opportunity to continue learning because it's always evolving. New design trends, tools, and technologies emerge frequently. This environment keeps me engaged and growing continuously. I am passionate about web design because it feeds my curiosity and rewards adaptability and exploration.</p>
            
-            <p>Take a look at my projects and see first hand the successes and challenges I have experienced. </p>
+            <p className={styles.aboutText}>Look at my projects and see firsthand the successes and challenges I have experienced. </p>
            
             <Button />
 
