@@ -39,7 +39,7 @@ export default function About() {
 
             <p className={styles.aboutText}>My Approach</p>
 
-            <p>I believe great design starts with understanding the message behind it.  I approach each project by combining creativity with research, problem-solving, and especially attention to detail. My goal is to create work that feels intentional, and authentic</p>
+            <p>I believe great design starts with understanding the message behind it.  I approach each project by combining creativity with research, problem-solving, and especially attention to detail. My goal is to create work that feels intentional, and authentic.</p>
             
             <p>Web design offers me a platform to combine all my learning experience, and the opportunity to continue learning because it's always evolving. New design trends, tools, and technologies emerge frequently. This environment keeps me engaged and growing continuously. I am passionate about web design because it feeds my curiosity and rewards adaptability and exploration.</p>
            
